@@ -1,0 +1,17 @@
+{
+  "name": "ald-wx",
+  "version": "1.0.0",
+  "description": "打包阿拉丁sdk成npm包",
+  "main": "build",
+  "repository": "git@github.com:kdong007/ald-wx.git",
+  "author": "Mars Dong",
+  "license": "MIT",
+  "scripts": {
+    "build": "babel src -d build --presets=env",
+    "clean": "rm -rf build"
+},
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  }
+}
